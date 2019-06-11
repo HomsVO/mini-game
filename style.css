@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+#root{
+    margin: 0 auto;
+}
+#ui_turn{
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px;
+}
+#throwBtn{
+    width: 70px;
+    background-color: #f0f0f0;
+    border: none;
+    box-shadow: none;
+    margin: 0 0 0 10px;
+}
+.dice{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #272727;
+    text-align: center;
+    margin: 8px 0px;
+    line-height: 50px;
+    font-size: 28px;
+    font-family: Arial,sans-serif;
+}
+.cell{
+    width: 22px;
+    height: 22px;
+    border: 1px solid #727272;
+}
+.cell:hover{
+    border: 1px solid #cb1818;
+}
+.player1{
+    background-color: #cb1818;
+    border: 1px solid #cb1818;
+    transition: 0.2s;
+}
+.click{
+    background-color: #272727;
+    transition: 0.2s;
+}
+.player2{
+    background-color: #2421ca;
+    transition: 0.2s;
+    border: 1px solid #2421ca;
+    
+}
+.ui_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
